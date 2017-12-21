@@ -4,7 +4,7 @@ $(document).ready(function(){
             first_name: $('.first_name input').val(),
             phonenumber: $('.phonenumber input').val(),
             email: $('.email input').val(),
-            content:$('.content textarea').val(),
+            content:$('.content input').val(),
         };
         modifyCss('.leadforms', 'add', 'loading');
         $.post('/api/sendmsg', data, function(res){
