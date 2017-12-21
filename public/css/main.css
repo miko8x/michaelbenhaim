@@ -1,0 +1,58 @@
+/* FONT TYPES */
+
+@font-face {
+    font-family: Almoni;
+    font-weight: none;
+    src: url("../fonts/almoni-dl-aaa-light.otf") format("opentype");
+}
+@font-face {
+    font-family:AlmoniBold;
+    font-weight:none;
+    src: url("../fonts/almoni-dl-aaa-bold.otf");
+}
+
+/* GLOBAL */
+body{text-align:right;direction:rtl;margin:0;padding:0;font-family: Almoni !important;}
+div {font-family:Almoni !important;font-weight:very strong;font-size:16px;}
+h1{font-family:AlmoniBold !important;}
+h2{font-family:AlmoniBold !important;}
+h3{font-family:AlmoniBold !important;}
+p{font-family:Almoni;font-size:18px !important;font-weight:bold;}
+input{font-family: Almoni !important;text-align:right !important;padding:1rem !important;margin:0.5rem !important;min-width:200px !important;}
+ul{list-style-type: none; font-family:AlmoniBold !important;}
+nav{text-align:center;font-size:4rem;background-color:#CDCDCD !important;}
+section{background-color:#E9E9E9}
+textarea{font-family:Almoni !important;}
+a{color:#9580ff !important;transition:color ease 0.5s !important;-webkit-transition:color ease 0.5s;-moz-transition:color ease 0.5s;-o-transition:color ease 0.5s;}
+a:hover{color:#4d29ff !important;}
+
+
+/* HEADER */
+header{margin:1rem 5rem}
+div.ui.green.label{}
+span#phonenumb{margin-right:0.5rem;}
+nav li{font-size:2.5rem;line-height:1.5 !important;}
+
+
+/* MAIN */
+.ui.attached.segment.thefirst{
+    height:30%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/mozn.jpg") !important;
+    background-size:cover !important;
+    background-repeat:no-repeat !important;
+}
+h1.ui.large.inverted.header{text-align:center;padding:0.5rem;}
+.ui.eight.wide.column {margin:0 auto !important;}
+div.ui.huge.centered.list.sec{float:left;}
+.item{color:white;width:100%;font-size:1.5rem;}
+.leadforms{margin:0 !important;padding:0 !important;text-align:center;}
+.call_banner{text-align:left;}
+h2.ui.large.header{text-align:center:;}
+#submit{text-align:center;width:8%;margin:0 auto;padding-bottom:0.5rem;}
+.boxtext{text-align:center;padding:0.5rem;}
+.square.icon{color:#9580ff;}
+
+
+/* FOOTER */
+
+
